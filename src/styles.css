@@ -1,201 +1,212 @@
 /* You can add global styles to this file, and also import other style files */
-.contenedor{
-    display: flex;
-    justify-content: center;
-    }
-    
-    .mat-card {
-        border-radius: 10px;
-        /*margin: 10px 10px ;*/
-        background-color: aquamarine;
-        padding: 20px;
-        border: white ;
-        position: absolute;
-        /*display: grid;*/
-        align-content: space-evenly;
-        justify-content: space-evenly;
-    }
-    
-    #imagen-de-fondo {
-        display: flex;
-        z-index: 1 ;
-    }
-    
-    #imagen-de-fondo img {
-        width: 100%;
-        border-radius: 32px 32px 0 0; 
-    }
-    
-    #info {
-        display: flex;
-        margin: 10px;
-        justify-content: space-between;
-        align-items: flex-end;
-        position: relative;
-        /*border:groove;*/ 
-        z-index: 100;
-    }
-    #info-detalles {
-        margin-top: -217%;
-        margin-right: 100%;
-        align-content: flex-end;
-    }
-    .info-action {
-        background: #add8e6;
-        border-radius: 10px;
-        padding: 10px;
-    }
-    .btn {
-        color: #000;
-        background-color: rgb(64, 110, 238);
-        margin: 5px;
-    }
-    #info-data{
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .fa-solid {
-        vertical-align:bottom;
-        margin: 10px;
-        padding:10px;
-    }
-    .fa-solid:hover {
-        background: rgb(170, 161, 161);
-        border-radius: 10px;
-    }
-    .foto-de-perfil {
-        display: inline-flex;
-        border-radius: 20% ;
-        width: 175px;
-        height: 200px;
-        margin-top: -40px;
-    }
-    .experiencia-educación {
-        margin: 20px;
-    }
-    .editar-exp {
-        display: flex;
-        justify-content: flex-end;
-        margin-top: -55px;
-        margin-bottom: 20px;
-    }
-    #imagen-AP {
-        width: 100px;
-        height: 50px;
-        border-radius: 8%;
-    }
-    
-    #imagen-UNNE {
-        width: 70px;
-        border-radius: 8%;
-        margin: 10px;
-    }
-    
-    .h2 , h2{
-        font-size:inherit;
-    }
-      
-    li {
-        list-style: none;
-    }
-    
-    .skills {
-        width: 80%;
-        /*margin: 10px;*/
-        margin-inline: auto;
-        border: 1px solid rgb(216, 47, 47);
-        padding: 5px;
-        margin-bottom: 2rem;
-    }
-    .container {
-        width: 100%;
-        background: rgb(217, 222, 224);
-        padding: 0px;
-    }
-    .sk {
-        text-align: right;
-        padding: 10px;
-        color: white;
-        font-weight: bold;
-    }
-    .html {
-        background-color: rgb(42, 226, 119);
-        animation: fillhtml 2s forwards;
-    }
-    @keyframes fillhtml{
-        0%{width: 0%;}
-        100%{width: 80%;}
-    }
-    .css {
-        background-color: rgb(42, 226, 119);
-        animation: fillcss 2s forwards;
-    }
-    @keyframes fillcss{
-        0%{width: 0%;}
-        100%{width: 70%;}
-    }
-    .js {
-        background-color: rgb(42, 226, 119);
-        animation: filljs 2s forwards;
-    }
-    @keyframes filljs{
-        0%{width: 0%;}
-        100%{width: 50%;}
-    }
-    .pie {
-        display: flex;
-        justify-content: space-between;
-        background-color: black;
-        height: 140%;
-    }
-    .derechos {
-        color: rgb(245, 245, 245);
-    }
-    .redes {
-    text-decoration:none;
-    font-size: 30px;   
-    margin-top:1%;
-    margin-right: 2%;
-    }
-    .redes > a {
-        text-decoration: none;
-        color: #000;
-    }
-    .fb {
-        background-color: rgb(53, 53, 221);
-        border-radius: 50px;
-        padding: 8px;
-        display: inline-flex;
-        margin: 5px;
-    }
-    .in {
-        background-color: rgb(135, 51, 235);
-        border-radius: 50px;
-        padding: 8px;
-        display: inline-flex;
-        margin: 5px;
-    }
-    .tw {
-        background-color: rgb(12, 183, 235);
-        border-radius: 50px;
-        padding: 8px;
-        display: inline-flex;
-        margin: 5px;
-    }
-    .yt {
-        background-color: rgb(228, 24, 24);
-        border-radius: 50px;
-        padding: 8px;
-        display: inline-flex;
-        margin: 5px;
-    }
-    
-    @media only screen and (max-width:800px) {
-        .contenedor{
-            display: block;
-            width: 100%;
-        }
-    }
-    
-    
+.contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.mat-card {
+  border-radius: 10px;
+  /*margin: 10px 10px ;*/
+  background-color: aquamarine;
+  padding: 20px;
+  border: white;
+  position: absolute;
+  /*display: grid;*/
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+
+#imagen-de-fondo {
+  display: flex;
+  z-index: 1;
+}
+
+#imagen-de-fondo img {
+  width: 100%;
+  border-radius: 32px 32px 0 0;
+}
+
+#info {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  /*border:groove;*/
+  z-index: 100;
+}
+#info-detalles {
+  margin-top: -217%;
+  margin-right: 100%;
+  align-content: flex-end;
+}
+.info-action {
+  background: #add8e6;
+  border-radius: 10px;
+  padding: 10px;
+}
+.btn {
+  color: #000;
+  background-color: rgb(64, 110, 238);
+  margin: 5px;
+}
+#info-data {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-solid {
+  vertical-align: bottom;
+  margin: 10px;
+  padding: 10px;
+}
+.fa-solid:hover {
+  background: rgb(170, 161, 161);
+  border-radius: 10px;
+}
+.foto-de-perfil {
+  display: inline-flex;
+  border-radius: 20%;
+  width: 175px;
+  height: 200px;
+  margin-top: -40px;
+}
+.experiencia-educación {
+  margin: 20px;
+}
+.editar-exp {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -55px;
+  margin-bottom: 20px;
+}
+#imagen-AP {
+  width: 100px;
+  height: 50px;
+  border-radius: 8%;
+}
+
+#imagen-UNNE {
+  width: 70px;
+  border-radius: 8%;
+  margin: 10px;
+}
+
+.h2,
+h2 {
+  font-size: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.skills {
+  width: 80%;
+  /*margin: 10px;*/
+  margin-inline: auto;
+  border: 1px solid rgb(216, 47, 47);
+  padding: 5px;
+  margin-bottom: 2rem;
+}
+.container {
+  width: 100%;
+  background: rgb(217, 222, 224);
+  padding: 0px;
+}
+.sk {
+  text-align: right;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+.html {
+  background-color: rgb(42, 226, 119);
+  animation: fillhtml 2s forwards;
+}
+@keyframes fillhtml {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+.css {
+  background-color: rgb(42, 226, 119);
+  animation: fillcss 2s forwards;
+}
+@keyframes fillcss {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+.js {
+  background-color: rgb(42, 226, 119);
+  animation: filljs 2s forwards;
+}
+@keyframes filljs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+.pie {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 140%;
+}
+.derechos {
+  color: rgb(245, 245, 245);
+}
+.redes {
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+.redes > a {
+  text-decoration: none;
+  color: #000;
+}
+.fb {
+  background-color: rgb(53, 53, 221);
+  border-radius: 50px;
+  padding: 8px;
+  display: inline-flex;
+  margin: 5px;
+}
+.in {
+  background-color: rgb(135, 51, 235);
+  border-radius: 50px;
+  padding: 8px;
+  display: inline-flex;
+  margin: 5px;
+}
+.tw {
+  background-color: rgb(12, 183, 235);
+  border-radius: 50px;
+  padding: 8px;
+  display: inline-flex;
+  margin: 5px;
+}
+.yt {
+  background-color: rgb(228, 24, 24);
+  border-radius: 50px;
+  padding: 8px;
+  display: inline-flex;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .contenedor {
+    display: block;
+    width: 100%;
+  }
+}
