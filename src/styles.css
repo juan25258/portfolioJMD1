@@ -48,6 +48,7 @@
     .btn {
         color: #000;
         background-color: rgb(64, 110, 238);
+        margin: 5px;
     }
     #info-data{
         display: flex;
@@ -152,33 +153,42 @@
         color: rgb(245, 245, 245);
     }
     .redes {
-    font-size: 40px;   
+    text-decoration:none;
+    font-size: 30px;   
     margin-top:1%;
     margin-right: 2%;
+    }
+    .redes > a {
+        text-decoration: none;
+        color: #000;
     }
     .fb {
         background-color: rgb(53, 53, 221);
         border-radius: 50px;
         padding: 8px;
         display: inline-flex;
+        margin: 5px;
     }
     .in {
         background-color: rgb(135, 51, 235);
         border-radius: 50px;
         padding: 8px;
         display: inline-flex;
+        margin: 5px;
     }
     .tw {
         background-color: rgb(12, 183, 235);
         border-radius: 50px;
         padding: 8px;
         display: inline-flex;
+        margin: 5px;
     }
     .yt {
         background-color: rgb(228, 24, 24);
         border-radius: 50px;
         padding: 8px;
         display: inline-flex;
+        margin: 5px;
     }
     
     @media only screen and (max-width:800px) {

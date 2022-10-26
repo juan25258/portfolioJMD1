@@ -1,10 +1,53 @@
+<header>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ir al inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
 <div id="imagen-de-fondo">
-  <img src="imagenes/fondo portfolio.png" alt="imagen de fondo"  title="imagen de fondo">
+  <img src="../assets/fondo portfolio.png" alt="imagen de fondo"  title="imagen de fondo">
 </div>
 <div id="info" padding="16px">
 
 <div id="info-foto-de-perfil">
-    <img class="foto-de-perfil" src="imagenes/B612_20210916_134346_017.jpg" alt="foto de perfil" title="foto de perfil">
+    <img class="foto-de-perfil" src="../assets/B612_20210916_134346_017.jpg" alt="foto de perfil" title="foto de perfil">
     <i class="fa-solid fa-pen-to-square"></i> <!--AGREGAR FUNCION PARA EDITAR FOTO-->
     <div id="info-profesión">
        <h1>Juan Martín Domínguez</h1>
@@ -13,7 +56,7 @@
     </div>
     <div id="info-contacto">
          <span>Corrientes capital, Corrientes, Argentina</span>
-         <span><a href="https://www.linkedin.com/in/juan-mart%C3%ADn-dominguez-a03765252/" target="_blank">Información de contacto</a> </span> <!--completar link en# para referenciar a la informacion de contacto, tal vez un linkedin-->
+         <span>&nbsp;<!--esta poruqeria agrega un espacio en blanco--><a href="https://www.linkedin.com/in/juan-mart%C3%ADn-dominguez-a03765252/" target="_blank">Información de contacto</a> </span> <!--completar link en# para referenciar a la informacion de contacto, tal vez un linkedin-->
     </div>
 </div>
 <div id="info-data">   
@@ -21,13 +64,13 @@
       <ul id="info-detalles">
         <li>
             <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" target="_blank">
-                <img id="imagen-AP" src="imagenes/logo-argentina-programa1.png" alt="">
+                <img id="imagen-AP" src="../assets/logo-argentina-programa1.png" alt="">
                 <!--<h2>Argentina programa #Yo programo</h2>-->
             </a>
         </li>
         <li>
             <a href="https://www.unne.edu.ar/index.php?lang=es" target="_blank">
-                <img id="imagen-UNNE" src="imagenes/logo-unne.png" alt="">
+                <img id="imagen-UNNE" src="../assets/logo-unne.png" alt="">
                 <!--<h2>Universidad Nacional del Nordeste</h2>-->
             </a>
         </li>
@@ -82,9 +125,10 @@
   <p>Todos los derechos reservados</p>
 </div>
 <div class="redes">
-  <span class="in"><i class="fa-brands fa-instagram"></i></span>
-  <span class="fb"><i class="fa-brands fa-facebook-f"></i></span>
-  <span class="yt"><i class="fa-brands fa-youtube"></i></span>
-  <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+  <a href="https://www.instagram.com/" target="_blank"><span class="in"><i class="fa-brands fa-instagram"></i></span></a>
+  <a href="https://www.facebook.com/" target="_blank"><span class="fb"><i class="fa-brands fa-facebook-f"></i></span></a>
+  <a href="https://www.youtube.com/" target="_blank"><span class="yt"><i class="fa-brands fa-youtube"></i></span></a>
+  <a href="https://twitter.com/" target="_blank"><span class="tw"><i class="fa-brands fa-twitter"></i></span></a>
 </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
