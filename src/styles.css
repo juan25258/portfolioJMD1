@@ -25,6 +25,11 @@
   width: 100%;
   border-radius: 32px 32px 0 0;
 }
+.offcanvas-title {
+  margin-inline: auto;
+}
+
+
 
 #info {
   display: flex;
